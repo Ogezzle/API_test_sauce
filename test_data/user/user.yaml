@@ -1,0 +1,14 @@
+user_1:
+  firstname:    "e2e_first_user"
+  lastname:     "e2e_last_user"
+  username:     "e2e_user"
+  email:        "e2e_user@gmail.com"
+  password:     "password"
+  sex:          "male"
+user_2:
+  firstname: "chika_user"
+  lastname: "thomas_user"
+  username: "chika_user"
+  email: "chika_user@gmail.com"
+  password: "password2"
+  sex: "female"

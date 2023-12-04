@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231203 18:25:45.164" rpa="false" schemaversion="4">
+<suite id="s1" name="Registration" source="C:\Users\ogee4\API_test_sauce\test\registration.robot">
+<test id="s1-t1" name="Register with valid credentials" line="7">
+<kw name="setup payload data" library="common">
+<var>${payload}</var>
+<arg>test_data=user</arg>
+<arg>key=user_1</arg>
+<kw name="prepare payload">
+<var>&amp;{payload}</var>
+<arg>test_data/${test_data}/${test_data}_data.json</arg>
+<arg>${key}</arg>
+<msg timestamp="20231203 18:25:45.219" level="FAIL">No keyword with name 'prepare payload' found.</msg>
+<status status="FAIL" starttime="20231203 18:25:45.219" endtime="20231203 18:25:45.219"/>
+</kw>
+<status status="FAIL" starttime="20231203 18:25:45.219" endtime="20231203 18:25:45.219"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is the payload${payload}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20231203 18:25:45.219" endtime="20231203 18:25:45.219"/>
+</kw>
+<doc>verifies that user can register into the system with valid credentials</doc>
+<tag>smoke</tag>
+<status status="FAIL" starttime="20231203 18:25:45.219" endtime="20231203 18:25:45.226">No keyword with name 'prepare payload' found.</status>
+</test>
+<doc>Test collection for registration system</doc>
+<status status="FAIL" starttime="20231203 18:25:45.164" endtime="20231203 18:25:45.227"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Registration">Registration</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231203 18:25:45.212" level="WARN">Imported library 'C:\Users\ogee4\API_test_sauce\resources\folk.py' contains no keywords.</msg>
+</errors>
+</robot>
