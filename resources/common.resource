@@ -1,7 +1,7 @@
 
 *** Settings ***
 Documentation           Keywords collections for all test cases
-Library                 folk.py
+Library                 Folk.py
 
 *** Keywords ***
 setup payload data
